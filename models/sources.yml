@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: meu_banco          # nome lógico para seu banco ou sistema fonte
+    schema: teste          # schema onde está a tabela saida_1
+    tables:
+      - name: saida_1        # nome da tabela que você quer copiar
+        description: "Tabela dados databricks"
